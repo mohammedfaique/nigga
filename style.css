@@ -38,14 +38,14 @@ body, html {
 }
 
 .popup {
-    padding: 10px 20px;
-    background: #CE93D8; /* Slightly darker purple for popup */
-    border-radius: 12px;
-    font-size: 18px;
-    color: #FFF;
-    position: fixed;
-    top: 10%;
-    left: 50%;
-    transform: translateX(-50%);
-    display: none;
+    padding: 8px 16px; /* Reduced padding */
+    background: #CE93D8; /* Slightly darker purple for popup */
+    border-radius: 12px;
+    font-size: 18px;
+    color: #FFF;
+    position: fixed;
+    top: 50%; /* Center vertically */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center horizontally and vertically */
+    display: none;
 }
