@@ -1,58 +1,60 @@
 body, html {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #F3E5F5; /* Soft purple background */
-    font-family: Arial, sans-serif; /* Keeping the font simple */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3E5F5; /* Soft purple background */
+    font-family: Arial, sans-serif; /* Keeping the font simple */
 }
 
 .container {
-    text-align: center;
-    padding: 20px; /* Add padding to center the content */
-    background-color: #F8BBD0; /* Cute light pink background */
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.1);
-    
-    /* Center vertically */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 80%; /* Adjust as needed */
+    text-align: center;
+    padding: 20px; /* Add padding to center the content */
+    background-color: #F8BBD0; /* Cute light pink background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    
+    /* Center vertically */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%; /* Adjust as needed */
 }
 
 .message {
-    font-size: 22px;
-    color: #333;
-    margin-bottom: 20px;
-    padding: 10px;
-    background: #E1BEE7; /* Light purple background */
-    border-radius: 5px;
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #E1BEE7; /* Light purple background */
+    border-radius: 5px;
 }
 
 .buttons button {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    margin: 5px;
-    border: none;
-    background-color: #D1C4E9; /* Light purple background for buttons */
-    color: white;
-    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    border: none;
+    background-color: #D1C4E9; /* Light purple background for buttons */
+    color: white;
+    border-radius: 5px;
 }
 
 .popup {
-    padding: 10px 20px;
-    background: #CE93D8; /* Slightly darker purple for popup */
-    border-radius: 12px;
-    font-size: 18px;
-    color: #FFF;
-    position: fixed;
-    top: 10%;
-    left: 50%;
-    transform: translateX(-50%);
-    display: none;
+    padding: 20px;
+    background: #CE93D8; /* Slightly darker purple for popup */
+    border-radius: 12px;
+    font-size: 18px;
+    color: #FFF;
+    position: fixed;
+    top: 50%; /* Center vertically */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center horizontally and vertically */
+    text-align: center; /* Center text */
+    max-width: 80%; /* Limit width */
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
