@@ -15,13 +15,6 @@ body, html {
     background-color: #F8BBD0; /* Cute light pink background */
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
-    
-    /* Center vertically */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 80%; /* Adjust as needed */
 }
 
 .message {
@@ -45,16 +38,14 @@ body, html {
 }
 
 .popup {
-    padding: 20px;
+    padding: 10px 20px;
     background: #CE93D8; /* Slightly darker purple for popup */
     border-radius: 12px;
     font-size: 18px;
     color: #FFF;
     position: fixed;
-    top: 50%; /* Center vertically */
+    top: 10%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Center horizontally and vertically */
-    text-align: center; /* Center text */
-    max-width: 80%; /* Limit width */
-    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    transform: translateX(-50%);
+    display: none;
 }
